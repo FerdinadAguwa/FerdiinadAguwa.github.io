@@ -23,6 +23,17 @@ No contributions allowed
 * HTML, CSS
 ### FrameWorks
 * Visual Studio Code
+## Page Preview
+* Screenshots
+<img src= "Photo/Screen Shot 2020-10-24 at 3.38.02 PM.png"
+alt= "header of my portfolio">
+<img src= "Photo/Screen Shot 2020-10-24 at 3.38.25 PM.png"
+alt= "body of website">
+<img src= "Photo/Screen Shot 2020-10-24 at 3.38.48 PM.png"
+alt= "footer of website">
+
+
+
 ## Developer
 ### Ferdinad Aguwa 
 * Github username: FerdinadAguwa
