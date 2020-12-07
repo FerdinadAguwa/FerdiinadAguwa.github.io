@@ -20,7 +20,7 @@ No contributions allowed
 * GitHub repository URL: https://github.com/FerdinadAguwa
 ## Technologies
 ### Languages
-* HTML, CSS
+* HTML, CSS Bootstrap JavaScript
 ### FrameWorks
 * Visual Studio Code
 ## Page Preview
