@@ -1,0 +1,285 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  body{
+
+background: url(https://lh3.googleusercontent.com/proxy/omVusMPAGZPj4zQTeoOCVDHrwZa4UbOJkKRvPaX5eERFdNWh1eTtLCyy0hPlnGf9buSxjwn_bmyCbADlrgqB3HDQ84YIVuNH_KX0f1AU5_8Ta66C) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;  
+}
+    
+
+/* page start image and text */
+.logo{
+    font-size: 20px;
+    background-image: url("Photo/590x300-OO0122993-Greem-wooden-abstract-background-design-vector.jpg");
+    height: 500px;
+    font-family: Asul;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.nameItem{
+    z-index: 1;
+    color: white;
+    font-size: 30px;
+}
+.typo{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/* navbarstyling */
+.nav-link{
+    background: linear-gradient(90deg, #000000, rgb(11, 99, 105), rgb(3, 3, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* firstSection intro class styling */
+ .ferd{
+     margin-top: 10px;
+     vertical-align: middle;
+     margin-bottom: 20px;
+   
+ }
+
+.first_header_style{
+    font-weight: 1;
+    font-size: 35px;
+    color: white;
+}
+strong{
+    font-weight: bold;
+}
+.first_header_style strong{
+    display: block;
+    color: rgb(4, 41, 25);
+    color: white;
+    text-shadow: 1px 1px rgb(190, 131, 131);
+}
+.second_header_style{
+    background: linear-gradient(90deg, #06ffac, rgb(11, 99, 105), rgb(26, 148, 150),rgb(253, 155, 240));
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;  
+    
+}
+
+.intro{
+    position: relative;
+    margin-top: 10px;
+    padding-top: 20px;  
+}
+.intro img{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    /* z-index: 1; */
+    border: 1px solid rgb(184, 182, 182);
+}
+/* styling for the About Me section  */
+.aboutMe{
+    background: linear-gradient(90deg, #06ffac, rgb(11, 99, 105), rgb(180, 162, 180),rgb(240, 38, 213));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
+
+.allServices{
+    padding: 0;
+    color: black;
+    background-size: cover;
+   
+}
+.infoText{
+    color: white;
+}
+
+.frameWork{
+    list-style-type: none;
+    color: coral;
+    font-weight: bold;
+    padding-left: 0%;
+  
+}
+
+.intro img{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    /* z-index: 1; */
+    border: 1px solid rgb(184, 182, 182);
+}
+
+/* all the information in the about me section  */
+ .Aguwa{
+     background-color: rgb(87, 79, 79);
+     display: flex;
+     padding-top: 25px;
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 15px;
+     color: white;
+    }
+    .Aguwa p{
+        font-size: 20px;
+    }
+.aboutMe{
+
+padding-right: 35px;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+  
+/* worksesction */
+.sectionTitle{
+    color: white;
+}
+.sectionSub{
+    color: white;
+}
+.portfolioItem img{
+    height: 200px;
+    margin: 10px;
+    border: 20px solid;
+    border-image-source: url(Photo/borderlayout.jpeg);
+    border-image-slice: 60 30;
+    opacity:0.9 ;
+
+}
+.portfolioImage:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+.portfolio{
+    overflow: scroll;
+    height: 190px;
+    margin-bottom: 100px;
+}
+
+/* contact sesction  */
+.contact{
+
+    border: 20px solid;
+    border-image-source: url(https://i.pinimg.com/originals/e7/ba/f3/e7baf3a159072cb2580a394230415e43.jpg);
+    border-image-slice: 60 30;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.mail{
+    display: flex;
+    margin-top: 10px;
+   justify-content: center;
+   background-color: wheat;
+
+ 
+
+}
+.mailPicture{
+    height: 50px;
+}
+.contactMenu{
+    text-align: center;
+    background-color: wheat;
+   
+
+}
+
+@media(min-width: 600px){
+    .intro{
+        display: grid;
+        grid-column-gap: 1em ;
+        width: min-content;
+        margin: 0;
+        grid-template-areas:
+        "first_header_style"
+        "second_header_style";
+        grid-template-columns: min-content max-content;
+         left: 25%;
+        right: 50%;
+
+    }
+    
+   .second_header_style{
+       align-self: start;
+       grid-row: 2;
+       text-align: left;
+       position: absolute;
+       bottom: 10px;
+       width: 110%;
+   }
+
+   .allServices{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+     
+    
+    
+   }
+   
+     
+      
+
+   }
+   .serviceHeader{
+      text-align: center;
+      margin: 40px;
+    text-decoration: underline;
+    color: white;
+ }
+ .myWork{
+     margin-top: 100px;
+     margin-bottom: 100px;
+     text-align: center;
+     width: 100%;
+ }
+ body .portfolio{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 40px;
+   
+}
+.portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 500px;
+    overflow: scroll;
+}
