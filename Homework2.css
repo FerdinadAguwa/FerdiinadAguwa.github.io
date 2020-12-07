@@ -19,7 +19,7 @@ background-size: cover;
 /* page start image and text */
 .logo{
     font-size: 20px;
-    background-image: url("Photo/590x300-OO0122993-Greem-wooden-abstract-background-design-vector.jpg");
+    background-image: url();
     height: 500px;
     font-family: Asul;
     display: flex;
@@ -218,6 +218,16 @@ text-align: center;
     background-color: wheat;
    
 
+}
+/* resumesection  */
+.resumePhoto{
+   width: 100%;
+   height: auto;
+   
+}
+.PDF{
+    font-size: 25px;
+    font-weight: bold;
 }
 
 @media(min-width: 600px){
