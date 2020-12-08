@@ -8,7 +8,7 @@ html {
   }
   body{
 
-background: url(https://lh3.googleusercontent.com/proxy/omVusMPAGZPj4zQTeoOCVDHrwZa4UbOJkKRvPaX5eERFdNWh1eTtLCyy0hPlnGf9buSxjwn_bmyCbADlrgqB3HDQ84YIVuNH_KX0f1AU5_8Ta66C) no-repeat center center fixed; 
+background: url(Photo/background1.jpg) no-repeat center center fixed; 
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -20,6 +20,7 @@ background-size: cover;
 .logo{
     font-size: 20px;
     background-image: url();
+    background-repeat: no-repeat;
     height: 500px;
     font-family: Asul;
     display: flex;
