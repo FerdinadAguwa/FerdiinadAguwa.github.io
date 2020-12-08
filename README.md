@@ -25,12 +25,10 @@ No contributions allowed
 * Visual Studio Code
 ## Page Preview
 * Screenshots
-<img src= "Photo/Screen Shot 2020-10-24 at 3.38.02 PM.png"
+<img src= "Photo/first screenshot.png"
 alt= "header of my portfolio">
-<img src= "Photo/Screen Shot 2020-10-24 at 3.38.25 PM.png"
+<img src= "Photo/second ss.png"
 alt= "body of website">
-<img src= "Photo/Screen Shot 2020-10-24 at 3.38.48 PM.png"
-alt= "footer of website">
 
 
 
