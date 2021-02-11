@@ -2,12 +2,12 @@
 <img src= "Photo/Photo.jpg"
      alt="preview portfolio image "
      style="margin-right: 10px; height: 300px;" />
+
 ## Description
 Here is the beginnig of my development as a web developer. I have created a portfolio with some prework assignments that I worked on before class began. I included advanced elements that i learned in class such as psudo elements, the hoover tool and media queries. The page should take you to various social sites at the bottom of the page, and give the user a good perspective about me. 
 
 ## Table of Contents
 * [License](#license)
-* [Pitch](#pitch)
 * [Contributing](#contributing)
 * [Links](#Links)
 * [Tenchnologies](#Technologies)
